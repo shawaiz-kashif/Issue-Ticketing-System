@@ -1,0 +1,30 @@
+name: ticket_gen
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+  provider: ^6.1.1
+  logger: 2.6.0
+  http: ^1.4.0
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.9.1
+  fl_chart: ^0.64.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
